@@ -1,5 +1,7 @@
 module github.com/alexbrainman/printer
 
-go 1.16
+go 1.23.0
 
-require golang.org/x/sys v0.0.0-20200909081042-eff7692f9009
+toolchain go1.24.3
+
+require golang.org/x/sys v0.34.0
